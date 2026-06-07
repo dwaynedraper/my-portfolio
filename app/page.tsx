@@ -3,7 +3,7 @@ export default function Home() {
     <main className="min-h-screen max-w-3xl mx-auto px-6 py-20">
       <h1 className="text-5xl font-bold mb-4">Dean Draper</h1>
       <p className="text-xl text-gray-500 mb-12">
-        Full-stack developer & photographer based in DFW's 121 corridor, from Allen to Colleyville.
+        Full-stack developer & photographer based in DFW&apos;s 121 corridor, from Allen to Colleyville.
       </p>
 
       <section className="mb-12">
