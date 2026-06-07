@@ -22,6 +22,10 @@ export default function RootLayout({
         <Providers>
           <Navbar />
           {children}
+          <footer className="max-w-3xl mx-auto px-6 py-8 mt-16 border-t border-gray-200 dark:border-gray-800 text-sm text-gray-500 dark:text-gray-400 flex justify-between items-center">
+            <span>© {new Date().getFullYear()} Dean Draper</span>
+            <span>Built with Next.js</span>
+          </footer>
         </Providers>
       </body>
     </html>
